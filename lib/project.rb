@@ -3,11 +3,11 @@ class Project
 
   def initialize(title)
     @title = title
-    @backers = []
+    @backers = [] # array of backers
   end
 
   def add_backer(backer) #accepts a backer as an arguement
-
+    # stores in a backers array
 
   end
 
