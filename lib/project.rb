@@ -10,5 +10,4 @@ class Project
     @backers << backer  # stores in a backers array
     backer.backed_projects << self
   end
-
 end
