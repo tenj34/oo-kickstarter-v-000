@@ -7,7 +7,7 @@ class Project
   end
 
   def add_backer(backer) #accepts a backer as an arguement
-    # stores in a backers array
+    @backers << backer# stores in a backers array
 
   end
 
