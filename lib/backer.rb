@@ -8,8 +8,8 @@ class Backer
     @backed_projects = []
   end
 
-  def back_project(project) # accepts a project
-    @backed_projects << project #
+  def back_project(project) # accepts a project arguement
+    @backed_projects << project # stores project in a backend_projects array
   end
 
 
